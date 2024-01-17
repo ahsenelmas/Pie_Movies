@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-
+from .models import Movie
 
 def home(request):
-    return HttpResponse('<h1>Home Page</h1>')
+    movie = Movie.objects.all()
+    return render(request, 'home.html', {'movie': movie})
 
