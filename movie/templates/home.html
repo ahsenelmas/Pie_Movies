@@ -1,17 +1,26 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1>PyMovies</h1>
+
+<h1>Pie Movies</h1>
+
 
 <div class="row">
     {% for movie in movie %}
-    <div class="col">
-        <div class="card" style="width: 18rem;">
-          <img src="{{ movie.image }}" class="card-img-top" alt="...">
-              <h5 class="card-title">{{ movie.name }}</h5>
-              <p class="card-text">Type = {{ movie.type }} imdb = {{ movie.imdb }} Time = {{ movie.duration }}</p>
-            </div>
+    <div class="col-sm">
+      <div class="card border-primary mb-3" style="max-width: 18rem;">
+      <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+        <img src="{{ movie.image }}" class="card-img-top" alt="...">
+        <div class="card-body text-primary">
+          <h5 class="card-title">{{ movie.name }}</h5>
           </div>
-        </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item">{{ movie.type }}</li>
+              <li class="list-group-item">Imdb = {{ movie.imdb }}</li>
+              <li class="list-group-item">Time = {{ movie.duration}}</li>
+            </ul>
+          </div>
+   </div>
     {% endfor %} 
+  </div>
 {% endblock %}
