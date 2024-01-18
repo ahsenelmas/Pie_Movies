@@ -7,8 +7,7 @@
     {% for movie in movie %}
     <div class="col">
         <div class="card" style="width: 18rem;">
-          <img src=".\movie\templates\images\blackpanther.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
+          <img src="{{ movie.image }}" class="card-img-top" alt="...">
               <h5 class="card-title">{{ movie.name }}</h5>
               <p class="card-text">Type = {{ movie.type }} imdb = {{ movie.imdb }} Time = {{ movie.duration }}</p>
             </div>
