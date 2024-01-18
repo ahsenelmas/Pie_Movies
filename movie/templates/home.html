@@ -1,24 +1,25 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<h1 style="text-align: center;">PyMovies</h1>
 
-<div class="row" style="display: flex; justify-content: center; flex-wrap: wrap;">
+<h1 class="text-center mb-4">Pie Movies</h1>
+
+<div class="row">
     {% for movie in movies %}
-    <div class="col" style="flex: 0 0 18rem; margin: 10px;">
-        <div class="card" style="width: 18rem; margin: auto; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); transition: 0.3s;">
-            <img src="{{ movie.image }}" class="card-img-top" alt="Movie Image" style="width: 100%; height: auto; display: block;">
-            <div style="padding: 10px;">
-                <h5 class="card-title">{{ movie.name }}</h5>
-                <div class="card-text" style="margin: 10px 0; color: #555; font-size: 14px; line-height: 1.6;">
-                    <p style="margin: 5px 0;"><strong>Type:</strong> {{ movie.type }}</p>
-                    <p style="margin: 5px 0;"><strong>IMDb:</strong> {{ movie.imdb }}</p>
-                    <p style="margin: 5px 0;"><strong>Time:</strong> {{ movie.duration }}</p>
-                </div>
+    <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card border-primary h-100">
+            <img src="{{ movie.image }}" class="card-img-top" alt="{{ movie.name }}">
+            <div class="card-body">
+                <h5 class="card-title text-dark">{{ movie.name }}</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Type: {{ movie.type }}</li>
+                    <li class="list-group-item">IMDb: {{ movie.imdb }}</li>
+                    <li class="list-group-item">Time: {{ movie.duration }}</li>
+                </ul>
             </div>
         </div>
     </div>
     {% endfor %} 
 </div>
-{% endblock %}
 
+{% endblock %}
