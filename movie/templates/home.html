@@ -1,7 +1,18 @@
+{% extends 'base.html' %}
+
+{% block content %}
 <h1>PyMovies</h1>
 
-<ul>
+<div class="row">
     {% for movie in movie %}
-       <li> {{movie.name}} type = {{movie.type}} imdb = {{movie.imdb}} duration = {{movie.duration}} <li>
-    {% endfor %}
-</ul>    
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+          <img src=".\movie\templates\images\blackpanther.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{ movie.name }}</h5>
+              <p class="card-text">Type = {{ movie.type }} imdb = {{ movie.imdb }} Time = {{ movie.duration }}</p>
+            </div>
+          </div>
+        </div>
+    {% endfor %} 
+{% endblock %}
