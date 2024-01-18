@@ -2,25 +2,24 @@
 
 {% block content %}
 
-<h1>Pie Movies</h1>
-
+<h1 class="text-center mb-4">Pie Movies</h1>
 
 <div class="row">
-    {% for movie in movie %}
-    <div class="col-sm">
-      <div class="card border-primary mb-3" style="max-width: 18rem;">
-      <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
-        <img src="{{ movie.image }}" class="card-img-top" alt="...">
-        <div class="card-body text-primary">
-          <h5 class="card-title">{{ movie.name }}</h5>
-          </div>
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">{{ movie.type }}</li>
-              <li class="list-group-item">Imdb = {{ movie.imdb }}</li>
-              <li class="list-group-item">Time = {{ movie.duration}}</li>
-            </ul>
-          </div>
-   </div>
+    {% for movie in movies %}
+    <div class="col-md-4 col-sm-6 mb-4">
+        <div class="card border-primary h-100">
+            <img src="{{ movie.image }}" class="card-img-top" alt="{{ movie.name }}">
+            <div class="card-body">
+                <h5 class="card-title text-dark">{{ movie.name }}</h5>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Type: {{ movie.type }}</li>
+                    <li class="list-group-item">IMDb: {{ movie.imdb }}</li>
+                    <li class="list-group-item">Time: {{ movie.duration }}</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     {% endfor %} 
-  </div>
+</div>
+
 {% endblock %}
