@@ -6,4 +6,3 @@ class Movie(models.Model):
     type = models.CharField(max_length=250)
     imdb = models.FloatField(null=True)
     duration = models.FloatField(null=True)
-    

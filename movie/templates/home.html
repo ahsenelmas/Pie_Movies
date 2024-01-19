@@ -2,7 +2,7 @@
 
 {% block content %}
 
-<h1 class="text-center mb-4">Pie Movies</h1>
+<h1 class="text-center mb-4">Pie Movies&reg;</h1>
 
 <div class="row">
     {% for movie in movies %}
@@ -14,10 +14,10 @@
                 <h5 class="card-title text-dark">{{ movie.name }}</h5>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item">Type: {{ movie.type }}</li>
-                    <li class="list-group-item">IMDb: {{ movie.imdb }}</li>
+                    <li class="list-group-item">IMDb: {{ movie.imdb }} </li>
                     <li class="list-group-item">Time: {{ movie.duration }}</li>
                 </ul>
-                 <p><a href="https://youtu.be/W4DlMggBPvc"> <button class="btn btn-primary" type="submit">Watch Tralier</button> </a></p>
+                <p><a href="https://youtu.be/W4DlMggBPvc"> <button class="btn btn-primary" type="submit">Watch Tralier</button></a></p>            
             </div>
         </div>
     </div>
