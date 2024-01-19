@@ -8,6 +8,7 @@
     {% for movie in movies %}
     <div class="col-md-4 col-sm-6 mb-4">
         <div class="card border-primary h-100">
+            <body style="background-color:lightblue;">
             <img src="{{ movie.image }}" class="card-img-top" alt="{{ movie.name }}">
             <div class="card-body">
                 <h5 class="card-title text-dark">{{ movie.name }}</h5>
