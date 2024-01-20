@@ -2,13 +2,13 @@
 
 {% block content %}
 
-<h1 class="text-center mb-4">Pie Movies&reg;</h1>
+<h1 class="text-center mb-4" style="color:white;">Pie Movies&reg;</h1>
 
 <div class="row">
     {% for movie in movies %}
     <div class="col-md-4 col-sm-6 mb-4">
         <div class="card border-primary h-100">
-            <body style="background-color:lightblue;">
+            <body style="background-color:maroon;">
             <img src="{{ movie.image }}" class="card-img-top" alt="{{ movie.name }}">
             <div class="card-body">
                 <h5 class="card-title text-dark">{{ movie.name }}</h5>
