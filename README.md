@@ -9,4 +9,4 @@
  # What is my resources?
     * I will use W3Schools,YouTube and ChatGPT
  # How can I design my website?
-    * I will design with html and css.
+    * I will design with html.
