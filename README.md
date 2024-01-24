@@ -28,12 +28,13 @@
       - ![Screenshot (1501)](https://github.com/ahsenelmas/website_project/assets/149892848/e2d1b967-3a2d-4b60-b343-ee3b33cf7627)
       - My Database.
       - ![Screenshot (1489)](https://github.com/ahsenelmas/website_project/assets/149892848/75d02069-a623-4586-b48d-e9489b872fea)
-    5. I add new urls in my codes.![Screenshot (1404)](https://github.com/ahsenelmas/website_project/assets/149892848/4bb1e565-1316-4009-a2fb-ea246205f343)
+      - I added new movies.![Screenshot (1505)](https://github.com/ahsenelmas/website_project/assets/149892848/963e3f7c-0086-4f94-96bd-e1e123c2e206)
+    5. I add new urls in my codes.![Screenshot (1404)](https://github.com/ahsenelmas/website_project/assets/149892848/4bb1e565-1316-4009-a2fb-ea246205f343
     6. After that, I opened my website basically.
       - ![image](https://github.com/ahsenelmas/website_project/assets/149892848/0895b0bd-7f58-4190-9575-6c2e9c23d65e)
     7. I need to design my website with HTML like background or trailer buttons.
       - ![image](https://github.com/ahsenelmas/website_project/assets/149892848/4517efdf-683e-4071-aed6-8eb366a50176)
       - ![Screenshot (1502)](https://github.com/ahsenelmas/website_project/assets/149892848/391b1869-98ea-4959-b510-70aae8b70328)
       - ![Screenshot (1503)](https://github.com/ahsenelmas/website_project/assets/149892848/1aa1b7ec-c616-406a-9e99-b35a341c8a92)
-
+   
 
