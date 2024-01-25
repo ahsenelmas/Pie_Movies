@@ -29,7 +29,8 @@
       - My Database.
       - ![Screenshot (1489)](https://github.com/ahsenelmas/website_project/assets/149892848/75d02069-a623-4586-b48d-e9489b872fea)
       - I added new movies.![Screenshot (1505)](https://github.com/ahsenelmas/website_project/assets/149892848/963e3f7c-0086-4f94-96bd-e1e123c2e206)
-    5. I add new urls in my codes.![Screenshot (1404)](https://github.com/ahsenelmas/website_project/assets/149892848/4bb1e565-1316-4009-a2fb-ea246205f343
+    5. I add new urls in my codes.
+      - ![Screenshot (1404)](https://github.com/ahsenelmas/website_project/assets/149892848/09452702-e57b-4238-a13b-0428eb4a3130)
     6. After that, I opened my website basically.
       - ![image](https://github.com/ahsenelmas/website_project/assets/149892848/0895b0bd-7f58-4190-9575-6c2e9c23d65e)
     7. I need to design my website with HTML like background or trailer buttons.
