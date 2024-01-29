@@ -13,15 +13,22 @@
    - I used Bootstrap for some templates.   
  
  # What is my process ?
+ 
    1. Firstly, I downloaded Django and Visual Studio Code.
+      
       - I opened Django document with pip and cmd prompt.![Screenshot (1399)](https://github.com/ahsenelmas/website_project/assets/149892848/dfddae15-8511-4fb9-a1d8-c33b7e555e5e)
       - I opened another document in Visual Studio Code.![Screenshot (1400)](https://github.com/ahsenelmas/website_project/assets/149892848/a2bcc3f4-76db-4345-9e22-3ccdc8f4cfb7)
         
    2. Secondly, I did "python manage.py runserver" for opened home page.![Screenshot (1402)](https://github.com/ahsenelmas/website_project/assets/149892848/2e79d517-31cb-4033-8016-aef1207a4e31)
+
       - This is my Home Page views.![Screenshot (1403)](https://github.com/ahsenelmas/website_project/assets/149892848/06dafc69-9317-44c2-b0c8-a34ddeeac28e)
+        
    3. Thirdly, I created my models.
+      
       - ![image](https://github.com/ahsenelmas/website_project/assets/149892848/4680e3fe-d6a0-4b8e-b038-b4b73f6a7e65)
+        
    4. Then, I created my migrations for database and administration page.
+      
       - This is my migrations.
       - ![Screenshot 2024-01-24 102551](https://github.com/ahsenelmas/website_project/assets/149892848/e080b8ad-17ba-480b-8400-0909960aab20)
       - Firstly I sign up my administration page and I created password for access.![Screenshot (1405)](https://github.com/ahsenelmas/website_project/assets/149892848/c9ce8be7-1e16-4209-9cfd-5b0b8ef21799)
@@ -30,11 +37,17 @@
       - My Database.
       - ![Screenshot (1489)](https://github.com/ahsenelmas/website_project/assets/149892848/75d02069-a623-4586-b48d-e9489b872fea)
       - I added new movies.![Screenshot (1505)](https://github.com/ahsenelmas/website_project/assets/149892848/963e3f7c-0086-4f94-96bd-e1e123c2e206)
-    5. I add new urls in my codes.
+        
+   5. I add new urls in my codes.
+    
       - ![Screenshot (1404)](https://github.com/ahsenelmas/website_project/assets/149892848/09452702-e57b-4238-a13b-0428eb4a3130)
-    6. After that, I opened my website basically.
+        
+   6. After that, I opened my website basically.
+      
       - ![image](https://github.com/ahsenelmas/website_project/assets/149892848/0895b0bd-7f58-4190-9575-6c2e9c23d65e)
-    7. I need to design my website with HTML like background or trailer buttons.
+        
+   7. I need to design my website with HTML like background or trailer buttons.
+      
       - ![image](https://github.com/ahsenelmas/website_project/assets/149892848/4517efdf-683e-4071-aed6-8eb366a50176)
       - ![Screenshot (1502)](https://github.com/ahsenelmas/website_project/assets/149892848/391b1869-98ea-4959-b510-70aae8b70328)
       - ![Screenshot (1503)](https://github.com/ahsenelmas/website_project/assets/149892848/1aa1b7ec-c616-406a-9e99-b35a341c8a92)
