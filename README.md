@@ -16,6 +16,7 @@
    1. Firstly, I downloaded Django and Visual Studio Code.
       - I opened Django document with pip and cmd prompt.![Screenshot (1399)](https://github.com/ahsenelmas/website_project/assets/149892848/dfddae15-8511-4fb9-a1d8-c33b7e555e5e)
       - I opened another document in Visual Studio Code.![Screenshot (1400)](https://github.com/ahsenelmas/website_project/assets/149892848/a2bcc3f4-76db-4345-9e22-3ccdc8f4cfb7)
+        
    2. Secondly, I did "python manage.py runserver" for opened home page.![Screenshot (1402)](https://github.com/ahsenelmas/website_project/assets/149892848/2e79d517-31cb-4033-8016-aef1207a4e31)
       - This is my Home Page views.![Screenshot (1403)](https://github.com/ahsenelmas/website_project/assets/149892848/06dafc69-9317-44c2-b0c8-a34ddeeac28e)
    3. Thirdly, I created my models.
